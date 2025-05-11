@@ -1,8 +1,13 @@
 #main {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
-.col {
-    flex-direction: column;
+#left {
+    max-width: 40%;
+}
+
+#right {
+    max-width: 60%;
 }
