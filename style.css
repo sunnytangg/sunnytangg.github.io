@@ -4,14 +4,16 @@
     flex-direction: row;
 }
 
+.col {
+    flex: 1;
+}
+
 #left {
-    flex: 50%;
-    max-width: 40%;
+    width: 40%;
     background-color: blue;
 }
 
 #right {
-    flex: 50%;
-    max-width: 60%;
+    width: 60%;
     background-color: red;
 }
