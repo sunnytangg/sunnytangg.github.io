@@ -1,6 +1,6 @@
-.html {
-    margin: 0;
-    padding: 0;
+.html, .body {
+    margin: 0px;
+    padding: 0px;
 }
 
 #main {
@@ -11,10 +11,12 @@
 
 #left {
     width: 40%;
+    max-width: 40%;
     background-color: blue;
 }
 
 #right {
     width: 60%;
+    max-width: 60%;
     background-color: yellow;
 }
