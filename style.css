@@ -6,8 +6,10 @@
 
 #left {
     max-width: 40%;
+    background-color: blue;
 }
 
 #right {
     max-width: 60%;
+    background-color: red;
 }
