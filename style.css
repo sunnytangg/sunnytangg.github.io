@@ -1,10 +1,12 @@
+.html {
+    margin: 0;
+    padding: 0;
+}
+
 #main {
     display: flex;
     flex-direction: row;
-}
-
-.col {
-    flex: 1;
+    flex-wrap: nowrap;
 }
 
 #left {
@@ -14,5 +16,5 @@
 
 #right {
     width: 60%;
-    background-color: red;
+    background-color: yellow;
 }
